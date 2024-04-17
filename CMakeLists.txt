@@ -21,7 +21,7 @@ set(PROJECT_SOURCES
         tablemodel.cpp
         listmodel.h
         listmodel.cpp
-        test_qt/ok_netflix_shows_2.csv
+        # data/ok_netflix_shows_2.csv
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)

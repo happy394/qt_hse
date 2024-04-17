@@ -2,7 +2,7 @@
 
 
 Netflix::Netflix() {
-    QFile file("/Users/happy394/Desktop/ok_netflix_shows_2.csv");
+    QFile file("C:\\Users\\Alex\\QT\\qt_hse\\data\\ok_netflix_shows_2.csv");
     file.open(QFile::ReadOnly | QFile::Text);
     QTextStream ss(&file);
     QString s = ss.readLine();

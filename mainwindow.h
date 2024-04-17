@@ -6,7 +6,7 @@
 // our class
 #include <QStringListModel>
 #include "listmodel.h"
-
+#include "tablemodel.h"
 QT_BEGIN_NAMESPACE
 namespace Ui {
 class MainWindow;
@@ -25,11 +25,12 @@ public:
 private slots:
     void on_pushButton_clicked();
 
-    void on_listView_clicked(const QModelIndex &index); // delegate
+    // void on_listView_clicked(const QModelIndex &index); // delegate
 
 private:
     Ui::MainWindow *ui;
-    QStringListModel *list; // model
-    Netflix *filmList; // data
+    // QStringListModel *list; // model
+    // Netflix *filmList; // data
+    tablemodel *tableModel;
 };
 #endif // MAINWINDOW_H
